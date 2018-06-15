@@ -9,6 +9,10 @@
 
     <div class="container">
       <div class="col-md-offset-1 col-md-10">
+<<<<<<< HEAD
+=======
+        @include('shared._messages')
+>>>>>>> sign-up
         @yield('content')
         @include('layouts._footer')
       </div>
