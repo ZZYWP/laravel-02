@@ -4,8 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
-<<<<<<< HEAD
-=======
+
 use App\Models\User;
 >>>>>>> sign-up
 class UsersController extends Controller
@@ -14,8 +13,6 @@ class UsersController extends Controller
     {
     	return view('users.create');
     }
-<<<<<<< HEAD
-=======
     public function show(User $user){
         return view('users.show',compact('user'));
     }
@@ -34,5 +31,4 @@ class UsersController extends Controller
     	session()->flash('success','欢迎登陆~');
     	return redirect()->route('users.show',[$user]);
     }
->>>>>>> sign-up
 }

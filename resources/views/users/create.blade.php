@@ -2,9 +2,7 @@
 @section('title', '注册')
 
 @section('content')
-<<<<<<< HEAD
 <h1>注册</h1>
-=======
 <div class="col-md-offset-2 col-md-8">
   <div class="panel panel-default">
     <div class="panel-heading">
@@ -39,5 +37,5 @@
     </div>
   </div>
 </div>
->>>>>>> sign-up
+
 @stop
